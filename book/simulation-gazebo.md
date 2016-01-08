@@ -35,6 +35,12 @@ brew install gazebo7
 
 [Linux installation instructions](http://gazebosim.org/tutorials?tut=install_ubuntu&ver=6.0&cat=install) for Gazebo 6.
 
+Additionally needed:
+
+```sh
+sudo apt-get install libeigen3-dev protobuf-compiler
+```
+
 ## Running the Simulation
 
 Run the PX4 SITL with the Iris configuration in the Firmware directory:
